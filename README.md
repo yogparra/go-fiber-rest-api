@@ -22,3 +22,17 @@ Valiadar
 docker exec -it c59244668908 sh
 cat /tmp/products.json
 ```
+
+
+
+# Git
+```
+gh auth login
+gh repo create yogparra/go-fiber-rest-api
+```
+
+# Go
+```
+go mod init github/yogparra/go-fiber-rest-api
+go mod tidy
+```
